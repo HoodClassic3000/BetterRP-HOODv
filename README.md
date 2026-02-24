@@ -13,6 +13,7 @@
 - **No More Long Waits:** Portfolio pages with over 10,000 coins used to take 10+ seconds to load. Now, the script intercepts the portfolio request and sends RugPlay an empty coin list for immediate rendering.
 - **Dynamic HTML Table:** Internally, the script rebuilds the portfolio display, loading items dynamically—**without icons** to avoid rate-limiting.
 - **Efficient Data Handling:** Experience seamless browsing, regardless of how many coins you hold.
+- **Fast sorting and searching** Its so fast it blueshifts
 
 ### 3. Streamlined Coin Transfer Modal
 - **Effortless Search:** Improved coin searching, making it easier and faster to find what you want.
