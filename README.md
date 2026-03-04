@@ -4,22 +4,17 @@
 
 ## Features
 
-### 1. Trade Modal Upgrade
-- **Dual Input Support:** Trade modal now lets you enter either *value* or *coin quantity* for buying or selling.
-- **AMM Pricing Sync:** Inputs are instantly calculated using proper AMM logic and update to reflect current prices.
-- **Synchronized Inputs:** Changing one field auto-calculates and updates the other, ensuring consistent trade values.
-
-### 2. Lightning-Fast Portfolio Loading
+### 1. Lightning-Fast Portfolio Loading
 - **No More Long Waits:** Portfolio pages with over 10,000 coins used to take 10+ seconds to load. Now, the script intercepts the portfolio request and sends RugPlay an empty coin list for immediate rendering.
 - **Dynamic HTML Table:** Internally, the script rebuilds the portfolio display, loading items dynamically—**without icons** to avoid rate-limiting.
 - **Efficient Data Handling:** Experience seamless browsing, regardless of how many coins you hold.
 - **Fast sorting and searching** Its so fast it blueshifts
 
-### 3. Streamlined Coin Transfer Modal
+### 2. Streamlined Coin Transfer Modal
 - **Effortless Search:** Improved coin searching, making it easier and faster to find what you want.
 - **Toggle Value/Coins:** Now you can send coins by specifying the *value* you wish to transfer (e.g., send "5000 worth of *clippy*"), instead of counting raw coins.
 
-### 4. General Usability Improvements
+### 3. General Usability Improvements
 - **AI-Powered Enhancements:** The script leverages AI logic for smarter, contextual interactions—even if the underlying JS is a "hot mess".
 - **Page Detection:** Attempts to auto-detect RugPlay pages for script activation (may need improvement).
 
